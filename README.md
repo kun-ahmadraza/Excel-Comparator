@@ -54,14 +54,14 @@ git clone https://github.com/kun-ahmadraza/Excel-Comparator.git
 cd "Excel-Comparator"
 
 python -m venv venv
-venv\Scripts\activate   # Windows
-# or
-source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate
+
 Install dependencies:
 pip install fastapi uvicorn pandas numpy matplotlib openpyxl jinja2
 Start the FastAPI server:
 uvicorn main:app --reload
 Open your browser and go to:
 http://127.0.0.1:8000/
+
 
 
